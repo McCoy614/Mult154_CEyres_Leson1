@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
         foreach(KeyValuePair<Item.VegetableType, int> kvp in ItemInventory)
         {
-            output += string.Format("{0}: {1}", kvp.Key, kvp.Value);
+            output += string.Format("{0}: {1} ", kvp.Key, kvp.Value);
         }
         Debug.Log(output); 
     }
